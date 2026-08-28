@@ -21,6 +21,7 @@ public class NumbersArray {
 
     // Write your methods here
     public static int findMax(Integer[] input) {
+        System.out.println("hello");
         int[] arr = Arrays.stream(input)
                           .mapToInt(Integer::intValue)
                           .toArray();
