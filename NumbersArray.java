@@ -33,6 +33,7 @@ public class NumbersArray {
             int current = arr[i];
             max = Math.max(current, max);
         }
+        System.out.println("Hello");
         return max;
     }
 
