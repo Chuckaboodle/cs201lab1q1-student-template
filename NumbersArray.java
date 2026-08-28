@@ -21,13 +21,11 @@ public class NumbersArray {
 
     // Write your methods here
     public static int findMax(Integer[] input) {
-        System.out.println("hello");
         int[] arr = Arrays.stream(input)
                           .mapToInt(Integer::intValue)
                           .toArray();
     
         if (arr.length == 0) return -1;
-        if (arr.length == 1) return arr[0];
 
         int max = arr[0];
         for (int i = 1; i < arr.length; i++) {
